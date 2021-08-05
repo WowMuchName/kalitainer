@@ -1,0 +1,2 @@
+#!/usr/bin/with-contenv /bin/bash
+s6-setuidgid kali Xvfb ":0" -screen 0 "1280x600x24"

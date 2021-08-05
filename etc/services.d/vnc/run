@@ -1,0 +1,2 @@
+#!/usr/bin/with-contenv /bin/bash
+s6-setuidgid kali x11vnc -display ":0" -xkb -forever -shared -repeat -listen 0.0.0.0 -nopw -reopen -quiet
