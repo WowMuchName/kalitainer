@@ -1,0 +1,2 @@
+#!/usr/bin/with-contenv /bin/bash
+s6-setuidgid kali websockify --web=/usr/share/novnc/ 6080 localhost:5900
